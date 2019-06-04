@@ -1,0 +1,211 @@
+/*general*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 33%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+/*nav*/
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+  margin: auto;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left{
+  float: left;
+}
+
+/*header*/
+.header{
+background-color: rgb(32, 101, 136);
+background-image: url(images/city-scape.svg);
+background-size: cover;
+}
+
+.header img{
+  width: 40px;
+}
+
+.build{
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: white;
+}
+
+.build h1{
+  margin-top: 30px;
+}
+
+.build p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 600px;
+}
+
+
+.search{
+  background: rgb(31, 82, 111);
+  width: 800px;
+  height: 40px;
+  padding: 1px 3px;
+  border: 1px solid rgb(168, 168, 168);
+  font-family: 'Poppins', sans-serif;;
+  font-size: 14px;
+}
+
+.btn-search{
+  background: rgb(31, 82, 111);
+  height: 44px;
+  width: 40px;
+  border: 1px solid rgb(168, 168, 168);
+  color: white;
+  position: relative;
+  left: -5px;
+
+}
+
+.build .btn-signup{
+  background: rgb(240, 146, 51);
+}
+
+/*Orgs*/
+
+#orgs{
+  background: rgb(39, 53, 71);
+  color: white;
+  height: 400px;
+}
+
+.orgs-content{
+  margin: 0 auto;
+}
+.orgs-content-text{
+  float: right;
+}
+.orgs-content img{
+  height: 200px;
+  position: relative;
+  left: 150px;
+}
+
+.orgs-content-text h2{
+  max-width: 500px;
+}
+
+.btn-orgs{
+  background: rgb(203, 56, 55);
+  margin: 30px;
+  display: inline-block;
+}
+
+.orgs-content-text a{
+  text-decoration: none;
+  color: white;
+}
+
+#whatis{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 500px;
+  color: white;
+  position: relative;
+}
+
+.whatis-text{
+  max-width: 500px;
+  position: absolute;
+  left: 60px;
+}
+
+.btn-whatis{
+  background: rgb(49, 68, 88);
+  margin: 30px;
+}
+
+#whatcan{
+  margin: 0 auto;
+  height: 350px;
+  text-align: center;
+}
+
+.whatcan-block{
+  padding-top: 30px;
+}
+
+.whatcan-block-item{
+  /*text-align: center;*/
+}
+
+.whatcan-title{
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: rgb(83, 88, 98);
+}
+
+#whatcan p{
+  color: rgb(135, 145, 156);
+}
+
+#whatcan a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
