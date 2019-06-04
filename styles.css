@@ -46,7 +46,7 @@ h2{
 nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
-  padding-top: 15px;
+  padding: 15px 0 0px 15px;
   height: 30px;
   margin: auto;
 }
@@ -57,7 +57,6 @@ nav a {
 }
 
 .top-links {
-  display: inline-block;
   float: right;
   padding: 0;
   margin: 0 20px 0 0;
@@ -74,20 +73,34 @@ nav a {
 
 /*header*/
 .header{
-background-color: rgb(32, 101, 136);
-background-image: url(images/city-scape.svg);
-background-size: cover;
+  background-color: rgb(32, 101, 136);
+  background-image: url(images/city-scape.svg);
+  background-size: cover;
 }
 
-.header img{
-  width: 40px;
+.npm-logo{
+  max-width: 120px;
+  position: relative;
+  left: 10px;
+  top: 19px;
+}
+
+.bear-img{
+  max-width: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.link-signup{
+  text-decoration: none;
+  color: white;
 }
 
 .build{
   width: 800px;
-  height: 500px;
+  height: 440px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 50px 0 40px 0;
   color: white;
 }
 
@@ -104,12 +117,14 @@ background-size: cover;
 
 .search{
   background: rgb(31, 82, 111);
-  width: 800px;
+  width: 920px;
   height: 40px;
   padding: 1px 3px;
   border: 1px solid rgb(168, 168, 168);
   font-family: 'Poppins', sans-serif;;
   font-size: 14px;
+  position: relative;
+  left: 30px;
 }
 
 .btn-search{
@@ -119,8 +134,8 @@ background-size: cover;
   border: 1px solid rgb(168, 168, 168);
   color: white;
   position: relative;
-  left: -5px;
-
+  left: -2px;
+  margin-right: 15px;
 }
 
 .build .btn-signup{
@@ -132,8 +147,9 @@ background-size: cover;
 #orgs{
   background: rgb(39, 53, 71);
   color: white;
-  height: 400px;
+  height: 450px;
 }
+
 
 .orgs-content{
   margin: 0 auto;
@@ -153,8 +169,7 @@ background-size: cover;
 
 .btn-orgs{
   background: rgb(203, 56, 55);
-  margin: 30px;
-  display: inline-block;
+  margin: 30px 0;
 }
 
 .orgs-content-text a{
@@ -175,10 +190,12 @@ background-size: cover;
   position: absolute;
   left: 60px;
 }
+#whatis p{
+  margin-bottom: 30px;
+}
 
 .btn-whatis{
   background: rgb(49, 68, 88);
-  margin: 30px;
 }
 
 #whatcan{
